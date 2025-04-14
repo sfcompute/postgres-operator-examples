@@ -35,6 +35,9 @@ relatedImages:
 # PGO watches for and responds to PostgresClusters in all namespaces. When true,
 # PGO watches only the namespace in which it is installed.
 singleNamespace: false
+targetNamespace:
+  - postgresql
+  # - namespace2
 
 # debug allows you to enable or disable the "debug" level of logging.
 debug: true
