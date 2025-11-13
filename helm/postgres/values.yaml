@@ -101,6 +101,12 @@ postgresVersion: 17
 # (HA). Settings "instances" overrides this value.
 # instanceReplicas: 1
 
+# labels allows you to add labels to the Postgres cluster resource
+# labels: {}
+
+# annotations allows you to add annotations to the Postgres cluster resource
+# annotations: {}
+
 ##############################
 # Advanced Postgres Settings #
 ##############################
@@ -142,6 +148,9 @@ postgresVersion: 17
 # users sets any custom Postgres users and databases that they have  access to
 # as well as any permissions associated with the user account.
 # users: {}
+
+# postgres cluster configuration
+# config: {}
 
 # dataSource specifies a data source for bootstrapping a Postgres cluster.
 # dataSource: {}
